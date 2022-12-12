@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="803822ca-815c-4dcb-8555-f0bc9600f067" name="Changes" comment="Initial commit">
+    <list default="true" id="803822ca-815c-4dcb-8555-f0bc9600f067" name="Changes" comment="Day 3 Part 1 Completed">
+      <change afterPath="$PROJECT_DIR$/src/day4/MainDay4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day4/day4Challenge" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day1/MainDay1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day2/MainDay2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day3/MainDay3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day1/MainDay1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day1/MainDay1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day1/day1Challenge.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/day1/day1Challenge" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day2/MainDay2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day2/MainDay2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day3/MainDay3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day3/MainDay3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +106,7 @@
       <workItem from="1670316087430" duration="199000" />
       <workItem from="1670513074910" duration="3123000" />
       <workItem from="1670579232244" duration="26000" />
-      <workItem from="1670851583959" duration="7672000" />
+      <workItem from="1670851583959" duration="14841000" />
     </task>
     <task id="LOCAL−00001" summary="Initial commit">
       <created>1670852517443</created>
@@ -112,7 +114,13 @@
       <option name="presentableId" value="LOCAL−00001" />
       <updated>1670852517443</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL−00002" summary="Day 3 Part 1 Completed">
+      <created>1670860406465</created>
+      <option name="number" value="LOCAL−00002" />
+      <option name="presentableId" value="LOCAL−00002" />
+      <updated>1670860406465</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,6 +139,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Day 3 Part 1 Completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 3 Part 1 Completed" />
   </component>
 </project>

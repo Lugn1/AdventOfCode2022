@@ -22,6 +22,7 @@ public class MainDay2 {
 
         addOptionsToArrayList();
 
+        // Part one
         for (String result : guideList){
             switch (result) {
                 case "A X" -> totalPoints += (rock + draw);
@@ -37,6 +38,7 @@ public class MainDay2 {
     }
         System.out.println("My first total score would be: " + totalPoints);
 
+        // Part two
         for (String result : guideList){
             switch (result) {
                 case "A X" -> partTwoTotalPoints += scissor;

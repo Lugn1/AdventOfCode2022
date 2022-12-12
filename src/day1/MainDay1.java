@@ -15,7 +15,10 @@ public class MainDay1 {
     public static void main(String[] args) {
 
         getMaxElfCalorie(elvesCalories);
+
+        // Part One
         System.out.println("The elf with most calories is carrying: " + Collections.max(elvesCalories) + " calories.");
+        // Part two
         System.out.println("Top three elves are carrying a total of: " + getTopThree() + " calories.");
 
     }
