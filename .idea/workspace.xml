@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="803822ca-815c-4dcb-8555-f0bc9600f067" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AdventOfCode2022.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main.java" afterDir="false" />
+    <list default="true" id="803822ca-815c-4dcb-8555-f0bc9600f067" name="Changes" comment="Initial commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day1/MainDay1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day2/MainDay2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day3/MainDay3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,9 +40,9 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
 }</component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day1.Main" />
+  <component name="RunManager" selected="Application.MainDay3">
+    <configuration name="MainDay1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day1.MainDay1" />
       <module name="AdventOfCode2022" />
       <extension name="coverage">
         <pattern>
@@ -57,9 +54,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainDay2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day2.MainDay2" />
+      <module name="AdventOfCode2022" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainDay3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day3.MainDay3" />
+      <module name="AdventOfCode2022" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.MainDay3" />
+        <item itemvalue="Application.MainDay2" />
+        <item itemvalue="Application.MainDay1" />
       </list>
     </recent_temporary>
   </component>
@@ -79,8 +104,15 @@
       <workItem from="1670316087430" duration="199000" />
       <workItem from="1670513074910" duration="3123000" />
       <workItem from="1670579232244" duration="26000" />
-      <workItem from="1670851583959" duration="699000" />
+      <workItem from="1670851583959" duration="7672000" />
     </task>
+    <task id="LOCAL−00001" summary="Initial commit">
+      <created>1670852517443</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1670852517443</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,5 +128,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>
 </project>

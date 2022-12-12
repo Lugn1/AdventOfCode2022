@@ -6,7 +6,7 @@ import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Main {
+public class MainDay2 {
 
     static List<String> guideList = new ArrayList<>();
 
@@ -35,7 +35,7 @@ public class Main {
                 case "C Z" -> totalPoints += (scissor + draw);
             }
     }
-        System.out.println(totalPoints);
+        System.out.println("My first total score would be: " + totalPoints);
 
         for (String result : guideList){
             switch (result) {
@@ -51,7 +51,7 @@ public class Main {
             }
         }
 
-        System.out.println(partTwoTotalPoints);
+        System.out.println("My second total score would be: " + partTwoTotalPoints);
     }
 
 
@@ -59,11 +59,8 @@ public class Main {
 
         try{
             List<String> allLines = Files.readAllLines(Path.of("src/day2/day2Data.txt"));
+            guideList.addAll(allLines);
 
-            for (String line : allLines) {
-                System.out.println(line);
-                guideList.add(line);
-            }
         } catch (IOException e){
             e.printStackTrace();
         }

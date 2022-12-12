@@ -8,15 +8,15 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-public class Main {
+public class MainDay1 {
 
     static List<Integer> elvesCalories = new ArrayList<>();
 
     public static void main(String[] args) {
 
         getMaxElfCalorie(elvesCalories);
-        System.out.println(Collections.max(elvesCalories));
-        System.out.println(getTopThree());
+        System.out.println("The elf with most calories is carrying: " + Collections.max(elvesCalories) + " calories.");
+        System.out.println("Top three elves are carrying a total of: " + getTopThree() + " calories.");
 
     }
 
@@ -49,13 +49,3 @@ public class Main {
         }
     }
 }
-
-
-// A, X: Rock - 1p
-// B, Y: Paper - 2p
-// C, Z: Scissors - 3p
-// Win: 6p, Draw: 3p
-
-// X = LOOSE
-// Y = DRAW
-// Z = WIN
