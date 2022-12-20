@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="803822ca-815c-4dcb-8555-f0bc9600f067" name="Changes" comment="Day 5 complete" />
+    <list default="true" id="803822ca-815c-4dcb-8555-f0bc9600f067" name="Changes" comment="Day 5 complete">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,7 +34,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/wkarl/Desktop/adventOfCode2022/AdventOfCode2022"
+    "last_opened_file_path": "C:/Users/wkarl/Desktop/adventOfCode2022/AdventOfCode2022",
+    "nodejs_package_manager_path": "npm"
   }
 }]]></component>
   <component name="RunManager" selected="Application.MainDay5">
@@ -131,6 +134,7 @@
       <workItem from="1670884129752" duration="301000" />
       <workItem from="1670937983551" duration="760000" />
       <workItem from="1671444635886" duration="12172000" />
+      <workItem from="1671534147362" duration="422000" />
     </task>
     <task id="LOCAL−00001" summary="Initial commit">
       <created>1670852517443</created>
@@ -162,7 +166,13 @@
       <option name="presentableId" value="LOCAL−00005" />
       <updated>1671463368828</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL−00006" summary="Day 5 complete">
+      <created>1671534275488</created>
+      <option name="number" value="LOCAL−00006" />
+      <option name="presentableId" value="LOCAL−00006" />
+      <updated>1671534275488</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
